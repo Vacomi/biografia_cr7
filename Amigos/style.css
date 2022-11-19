@@ -7,34 +7,73 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+/* -------------------HEADER------------------- */
 .hero{
     position: relative;
+    text-align: center;
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/estadio.jpg");
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/estadio.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     padding: .1px;
-}   
-.hero__wave{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-image: url(img/wave.svg);
-    height: 200px;
-    width: 100%;
-}
+} 
+
 .hero__title{
-    margin-top: 40px;
-    /* text-align: center; */
+    margin-top: 50px;
+    text-align: center;
     color: #fff;
-    font-size: 50px;
+    font-size: 27px;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 .fa-circle{
     color: #fff;
-    margin-left: 30px;
-    font-size: 20px;
+    margin: 0 10px;
+    font-size: 15px;
 }
+
+/* -------------------FIN DEL HEADER------------------- */
+
+/* -------------------MAIN------------------------------ */
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.columna{
+    padding: 15px 30px;
+}
+.main__subtitle{
+    color: rgb(231, 149, 25);
+    text-align: center;
+}
+.main__paragraph{
+    text-align: justify;
+}
+/* @media (max-width: 903px) {
+    .hero__wave{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        background-image: url(img/wave.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+
+    }
+
+}
+*/
+
+/* @media (min-width: 576px) {
+   img{
+    height: 500px;
+   }
+   .columna{
+    padding: 15px 20px;
+    }
+
+}  */
