@@ -37,6 +37,7 @@ body{
 
 /* -------------------FIN DEL HEADER------------------- */
 
+
 /* -------------------MAIN------------------------------ */
 img{
     max-width: 100%;
@@ -51,29 +52,17 @@ img{
 }
 .main__paragraph{
     text-align: justify;
+    line-height: 2;
 }
-/* @media (max-width: 903px) {
-    .hero__wave{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 200px;
-        background-image: url(img/wave.svg);
-        background-repeat: no-repeat;
-        background-position: bottom;
+/*-------------------- FIN DE MAIN----------------------- */
 
+
+/* -------------------RESPOSIVE DEL MAIN----------------- */
+@media (min-width: 768px) {
+    .hero__title{
+        font-size: 50px;
     }
-
+    .fa-circle{
+        font-size: 21px;
+    }
 }
-*/
-
-/* @media (min-width: 576px) {
-   img{
-    height: 500px;
-   }
-   .columna{
-    padding: 15px 20px;
-    }
-
-}  */
