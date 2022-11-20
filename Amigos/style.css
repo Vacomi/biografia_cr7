@@ -4,10 +4,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* -----VARIABLES--- */
+:root {
+    --humo :#e0dddf;
+    --negro :#000;
+    --gris : #0000008c;
+    --rojo : #e31754;
+}
+
 /* -------STYLE DE MAIN -------*/
 
 body {
-    background-color: #333;
+    color: var(--gris);
     background-color: #E0DDDF;
     font-family: 'PT Sans', sans-serif;
 }
@@ -57,12 +65,18 @@ img{
     padding: 15px 30px;
 }
 .main__subtitle{
-    color: rgb(231, 149, 25);
+    font-weight: bold;
+    color: var(--rojo);
     text-align: center;
 }
 .main__paragraph{
     text-align: justify;
     line-height: 2;
+}
+
+span{
+    color: var(--negro);
+    font-weight: 400;
 }
 /*-------------------- FIN DE MAIN----------------------- */
 
