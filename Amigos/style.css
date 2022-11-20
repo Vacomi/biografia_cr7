@@ -47,11 +47,23 @@ body {
     font-weight: bold;
     margin-bottom: 15px;
 }
-.fa-circle{
+.bi-instagram,.bi-facebook, .bi-twitter, .bi-youtube{
+    color: #fff;
+    background-color: var(--negro);
+    padding: 7px 10px;
+    font-size: 18px;
+}
+.bi:hover{
+    color: var(--rojo);
+    font-size: 25px;
+    transition: .4s;
+}
+
+/* .fa-circle{
     color: #fff;
     margin: 0 10px;
     font-size: 15px;
-}
+} */
 
 /* -------------------FIN DEL HEADER------------------- */
 
@@ -60,6 +72,10 @@ body {
 img{
     max-width: 100%;
     object-fit: cover;
+    transition: .3s;
+}
+.image-container:hover img{
+    transform: scale(1.2);
 }
 .columna{
     padding: 15px 30px;
@@ -79,6 +95,8 @@ span{
     font-weight: 400;
 }
 /*-------------------- FIN DE MAIN----------------------- */
+
+/* -----------------FOOTER---------------- */
 
 
 /* -------------------RESPOSIVE DEL MAIN----------------- */
