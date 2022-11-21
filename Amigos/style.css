@@ -24,7 +24,19 @@ body {
     width: 70px;
 }
 
-
+/*--------------BARRA DE PROGRESO CSS JS-------------*/
+.progress-bar{
+    position: fixed;
+    width: 100%;
+    height: 7px;
+    z-index: 10;
+}
+.progress{
+    width: 0%;
+    height: 100%;
+    border-radius: 0;
+    background-color: black;
+}
 /* -------------------HEADER------------------- */
 .hero{
     position: relative;
