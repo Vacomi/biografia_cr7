@@ -2,5 +2,68 @@
     --humo :#e0dddf;
     --negro :#000;
     --gris : #0000008c;
-    --rojo : #e31754;
+    --rojo : #e31754;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* PARTE 1 imagenes */
+.title-photo{
+    text-align: center;
+}
+.imagenes3{
+    width: 100%;
+    max-width: 1700px;
+    margin: auto;
+    overflow: hidden;
+    background-color:#e0dddf;
+    
+}
+.imagenes3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+}
+.fam{
+    width: 100%;
+}
+
+/* final parte 1 */
+
+/* PARTE 2 historia */
+.historia{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 1em;
+}
+.siu{
+  width: 100%;
+  display: block;
+}
+.text-family{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin: 15px;
+
+}
+
+
+/* final parte 2 */
+
+/* PARTE 3 FAMILIA */
+
+.familiar-photos{
+    background-color: black;
+    margin: 2%;
+    width: 100%;
+    display: grid;
 }
