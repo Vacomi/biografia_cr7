@@ -7,14 +7,16 @@ body {
     background-color: #E0DDDF;
     font-family: 'PT Sans', sans-serif;
 }
+
 .titulocris{
-    /* font-weight: 400; */
-    font-size:80px  ;
+    font-size: 80px  ;
+    font-weight: bolder;
     text-align: center;
-    color: black;
+    color:var(--rojo);
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .titulo{
     display: inline-block;
     background-color: #000;
