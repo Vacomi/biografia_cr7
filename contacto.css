@@ -57,7 +57,46 @@ body {
 }
 
 /* Modal */
+/* -----------------FOOTER---------------- */
 
+footer{
+    background: black;
+    padding: 10px 0 10px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #e31754;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+    color: #9e9797;
+}
+
+/* FIN DEL FOOTER */
 
 /* ESTILO DE LA BARRA PROGRESIVA */
 .progress-bar{
