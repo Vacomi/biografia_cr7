@@ -11,6 +11,9 @@ body {
     background-color: var(--humo);
     font-family: 'PT Sans', sans-serif;
 }
+img{
+    width: 100%;
+}
 .logo {
     width: 70px;
 }
@@ -249,6 +252,118 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
+/**********************************************************************/
+/********************** PAGINA CARRERA.HTML **************************/
+/**********************************************************************/
+.header {
+    width: 100%;
+    height: 600px;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 3%, 0.486), hsla(315, 2%, 63%, 0.664)), url(../img/C-portada-cr7.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 2%, 9%, 0.493), hsla(330, 1%, 67%, 0.664)), url(../img/C-portada-cr7.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.header__frase {
+    display: flex;
+    height: 530px;
+    width: 100%;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.header__title1 {
+    color: white;
+    font-size: 50px;
+}
+.header__title2 {
+    color: white;
+    font-weight: bold;
+}   
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 900px) {
+    .header {
+        background-position: center;
+    }
+}
+.cmain {
+    background-color: white;
+}
+.cmain__col {
+    height: 380px;
+    position: relative;
+    /* padding: 0; */
+    box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.3);
+}
+.cmain__col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cmain__hover {
+    position: absolute;
+    top:0;
+    transform: scale(0);
+    height: 100%;
+    color: var(--humo);
+    background-color: var(--gris);
+    padding: 0 8px;
+
+    transition: transform .8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cmain__col:hover .cmain__hover{
+    transform: scale(1);
+}
+
+.img__reco {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* About Actualidad */
+
+.sobre-actualidad{
+    width: 100%;
+    padding: 100px ;
+    background-color: white;
+}
+
+.imagen-act{
+    padding: 10px; 
+    margin: 10px; 
+    float: right; 
+    width: 300px;
+}
+
+.sobre-actualidad .contenido-textos{
+    width: 48%;
+}
+
+
+.contenido-textos p{
+    padding: 10px 0px 30px 10px;
+    font-weight: 300;
+    text-align: justify;
+}
+
 
 
 /**********************************************************************/
