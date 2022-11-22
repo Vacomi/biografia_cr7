@@ -7,7 +7,7 @@
     <title>Cristiano Ronaldo</title>
 
     <!-- LINK DEL FAVICON -->
-    <link rel="shortcut icon" href="favicon_cr7.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon_cr7.png" type="image/x-icon">
 
     <!-- LINK DE LA FUENTE DE LETRA -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,20 +23,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
     <!-- LINK CSS PERSONALIZADO -->
-    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
     <div class="progress-bar">
         <div id="progress" class="progress"></div>
-      </div>
+    </div>
     <!-- MENU DE NAVEGACION -->
     <div class="container p-0">
         <nav class="navbar navbar-expand-lg bg-dangerr">
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="presentacion.html"><img src="logo_cr7.png" alt="Logotipo CR7" class="logo"></a>
+                <a class="navbar-brand" href="presentacion.html"><img src="img/logo_cr7.png" alt="Logotipo CR7" class="logo"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -47,9 +47,9 @@
 
                     <div class="navbar-nav">
                         <a class="nav-link" aria-current="page" href="home.html">Presentación</a>
-                        <a class="nav-link" href="Amigos/Amigos.html">Amigos</a>
+                        <a class="nav-link" href="amigos.html">Amigos</a>
                         <a class="nav-link" href="familia.html">Familia</a>
-                        <a class="nav-link" href="Proyecto final/carrera.html">Educación</a>
+                        <a class="nav-link" href="carrera.html">Educación</a>
                         <a class="nav-link active" href="#">Contacto</a>
                     </div>
                 </div>
@@ -60,8 +60,8 @@
     <!-- AQUI VA TU SECCION -->
     <div class="container contenedor">
         <div class="row my-5">
-            <div class="col bg d-none d-md-block col-md-5 relativo">
-                <div class="redes-sociales">
+            <div class="col contact__bg d-none d-md-block col-md-5 relativo">
+                <div class="contact__redes">
                     <button class="btn btn-dark">
                         <i class="bi bi-instagram"></i>
                     </button>
@@ -111,29 +111,29 @@
 
 
      <!-- FOOTER -->
-     <footer>
-        <div class="contenedor-footer">
-            <div class="content-foo">
-                <h4>Locación</h4>
-                <p>Perú</p>
+     <footer class="footer">
+        <div class="footer__contain">
+            <div class="footer__col">
+                <h4 class="footer__title">Locación</h4>
+                <p class="footer__paragraph">Perú</p>
             </div>
-            <div class="content-foo">
-                <h4>Correo</h4>
-                <p>teambicho_05@gmail.com</p>
+            <div class="footer__col">
+                <h4 class="footer__title">Correo</h4>
+                <p class="footer__paragraph">teambicho_05@gmail.com</p>
             </div>
-            <div class="content-foo">
-                <h4>Teléfono</h4>
-                <p>+51 987654321</p>
+            <div class="footer__col">
+                <h4 class="footer__title">Teléfono</h4>
+                <p class="footer__paragraph">+51 987654321</p>
             </div>
         </div>
-        <h2 class="titulo-final">&copy;Biografía de Cristiano Ronaldo. Todo los derechos reservados | Diseñado por el Grupo 2 "Team Bicho"</h2>
+        <p class="footer__final">&copy;Biografía de Cristiano Ronaldo. Todo los derechos reservados | Diseñado por el Grupo 2 "Team Bicho"</p>
     </footer>
 
     <!-- JavaScript de Boostrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
     <!-- Javascript personalizado -->
-    <script src="contacto.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

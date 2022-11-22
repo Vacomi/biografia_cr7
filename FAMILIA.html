@@ -7,7 +7,7 @@
     <title>Cristiano Ronaldo</title>
 
     <!-- LINK DEL FAVICON -->
-    <link rel="shortcut icon" href="/imagenCr7/favicon_cr7.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon_cr7.png" type="image/x-icon">
 
     <!-- LINK DE LA FUENTE DE LETRA -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,31 +23,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
     <!-- LINK DEL CSS -->
-<link rel="stylesheet" href="FAMILIA.css">
-
-    <style>
-        .logo {
-            width: 70px;
-        }
-
-        body {
-            background-color: #333;
-            background-color: #E0DDDF;
-            font-family: 'PT Sans', sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="progress-bar">
         <div id="progress" class="progress"></div>
     </div>
+
     <!-- MENU DE NAVEGACION -->
     <div class="container p-0">
         <nav class="navbar navbar-expand-lg bg-dangerr">
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="#"><img src="./imagenCr7/logo_cr7.png" alt="Logotipo CR7" class="logo"></a>
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo_cr7.png" alt="Logotipo CR7" class="logo">
+                </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -58,9 +49,9 @@
                     
                      <div class="navbar-nav">
                         <a class="nav-link" aria-current="page" href="home.html">Presentación</a>
-                        <a class="nav-link" href="Amigos/Amigos.html">Amigos</a>
-                        <a class="nav-link active" href="FAMILIA.html">Familia</a>
-                        <a class="nav-link" href="Proyecto final/carrera.html">Educación</a>
+                        <a class="nav-link" href="amigos.html">Amigos</a>
+                        <a class="nav-link active" href="familia.html">Familia</a>
+                        <a class="nav-link" href="carrera.html">Educación</a>
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </div>
                 </div>
@@ -68,61 +59,63 @@
         </nav>
     </div>
 
-    <!-- AQUI VA TU SECCION -->
+    <!-- AQUI SECCION FAMILIA -->
     <div class="container">
-        <h1 class="title-photo">FOTOS FAMILIARES</h1>
+        <h2 class="text-center mt-3 fw-bold">FOTOS FAMILIARES</h2>
 
-        <div class="imagenes3">
+        <div class="fotos">
             <div>
-                <img class="fam3" src="./imagenCr7/CR7-familia-3.jpg" alt="">
+                <img class="fotos__f3" src="img/F-familia-3.jpg" alt="">
             </div>
             <div>
-                <img class="fam1" src="./imagenCr7/CR7-familia-1.jpg" alt="">
+                <img class="fotos__f1" src="img/F-familia-1.jpg" alt="">
             </div>
             <div>
-                <img class="fam2" src="./imagenCr7/CR7-familia-2.jpg" alt="">
+                <img class="fotos__f2" src="img/F-familia-2.jpg" alt="">
             </div>
             
         </div>
         
-        <div class="historia">
-            <div>
+        <div class="fhistoria">
+            <div class="fhistoria__contain1">
                 <h3 class="title-historia">HISTORIA FAMILIAR</h3>
 
-                <p class="text-family">Cristiano Ronaldo ya es padre de cuatro hijos: el mayor, Cristiano Jr., de 11 años; los mellizos Eva y Mateo, nacidos de un vientre de alquiler; y la pequeña Alana Martina, la primera hija en común del deportista con Georgina. Este 2022, recibió una bendición más: una mujercita llegó a sus vidas, lamentablemente el mellizo de esta falleció durante el parto.
-
+                <p class="fhistoria__texto">Cristiano Ronaldo ya es padre de cuatro hijos: el mayor, Cristiano Jr., de 11 años; los mellizos Eva y Mateo, nacidos de un vientre de alquiler; y la pequeña Alana Martina, la primera hija en común del deportista con Georgina. Este 2022, recibió una bendición más: una mujercita llegó a sus vidas, lamentablemente el mellizo de esta falleció durante el parto.</p>
+                <p class="fhistoria__texto">
                     En resumen, los hijos que tuvo Gio con CR7 son: Alana Martina y la bebé que acaba de nacer. Aunque, ella no ha hecho ninguna distinción y se siente la madre de todos.
                     
                     Durante la cuarentena, Georgina Rodríguez afianzó su relación con cada uno de los pequeños, en especial con los que no tienen su misma sangre pero a quienes ama como si fueran suyos.
                 </p>
+
             </div>
             
-            <div>
-                <img class="image-historia" src="./imagenCr7/SIUUU.jpg" alt="">
-                <p class="reseña-historia">
+            <div class="fhistoria__contain2">
+                <img class="fhistoria__img" src="img/F-cristiano.jpg" alt="">
+                <p class="fhistoria__frase">
                 Cristiano Ronaldo en su máxima celebración.
                 </p>
             </div>
             
         </div>
 
+        <!-- ZONA INTEGRANTES -->
 
-        <h2 class="title-integ">INTEGRANTES DE LA BICHO-FAMILIA</h2>
+        <h2 class="text-center mt-4 mb-3 fw-bold">INTEGRANTES DE LA BICHO-FAMILIA</h2>
+
         <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
-                    <img class="georgi" src="./imagenCr7/GEORGINA-CR7-wife.jpg" class="card-img-top" alt="...">
+                    <img class="integrante__img" src="img/F-georgina.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">GEORGINA RODRIGUEZ</h5>
                       <p class="card-text">Georgina Rodríguez Hernández es una modelo y empresaria con nacionalidad argentina y española, criada en España, que se dio a conocer como la pareja del futbolista Cristiano Ronaldo en 2017.</p>
-                      
                     </div>
                   </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-12 col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
-                    <img class="jr" src="./imagenCr7/Jr.png" class="card-img-top" alt="...">
+                    <img class="integrante__img" src="img/F-junior.png" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">CRISTIANO RONALDO JR.</h5>
                       <p class="card-text">Cristiano Ronaldo Junior es el hijo mayor del famoso futbolista. Nació en el año 2010 en el estado de California en los Estados Unidos. Actualmente tiene 11 años. Se desconoce la identidad de su madre, un tema que ha sido tocado con mucha reserva.</p>
@@ -131,9 +124,9 @@
                   </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-12 col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
-                    <img class="alana" src="./imagenCr7/Alana.jpg" class="card-img-top" alt="...">
+                    <img class="integrante__img" src="img/F-alana.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Alana Martina dos Santos Aveiro</h5>
                       <p class="card-text">Alana Martina Dos Santos nació el 12 de noviembre de 2017, es la cuarta hija de Cristiano Ronaldo, pero la segunda en común biológicamente junto a Georgina.</p>
@@ -141,70 +134,72 @@
                     </div>
                   </div>
             </div>
+        </div> <!-- fin de row-->
 
-            <div class="col">
+        <div class="row">
+            <div class="col-12 col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
-                    <img class="twins" src="./imagenCr7/Eva-Mateo.jpg" class="card-img-top" alt="...">
+                    <img class="integrante__img" src="img/F-evaMateo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">EVA Y MATEO</h5>
-                      <p class="card-text">Eva María y Mateo son los mellizos de cuatro años de edad que nacieron en junio de 2017 y se ha reportado que no son hijos biológicos de Georgina Rodríguez, pareja de Cristiano, pero ella los ha adoptado como propios.</p>
-                      
+                        <h5 class="card-title">EVA Y MATEO</h5>
+                        <p class="card-text">Eva María y Mateo son los mellizos de cuatro años de edad que nacieron en junio de 2017 y se ha reportado que no son hijos biológicos de Georgina Rodríguez, pareja de Cristiano, pero ella los ha adoptado como propios.</p>
                     </div>
-                  </div>
+                </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
-                    <img class="bella" src="./imagenCr7/BELLA-CR7.png" class="card-img-top" alt="...">
+                    <img class="integrante__img" src="img/F-bella.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">BELLA ESMERALDA</h5>
-                      <p class="card-text">Bella Esmeralda, la hija de Cristiano Ronaldo y Georgina Rodríguez, la bendición que llegó tras la triste pérdida de su hermano gemelo. </p>
-                      
+                        <h5 class="card-title">BELLA ESMERALDA</h5>
+                        <p class="card-text">Bella Esmeralda, la hija de Cristiano Ronaldo y Georgina Rodríguez, la bendición que llegó tras la triste pérdida de su hermano gemelo. </p>
                     </div>
-                  </div>
+                </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-md-4 mb-2">
                 <div class="card" style="width: 100%;">
-                    <img class="pepe" src="./imagenCr7/PEPE.png" class="card-img-top" alt="...">
+                    <img class="integrante__img" src="img/F-pepe.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">PEPE</h5>
-                      <p class="card-text">La mascota del lusitano tiene dos años con él y se llama Pepe. Es un gato de raza sphynx, cuya principal característica es que no tienen pelo y se rumora que pagaron por él algo más de 4 mil dólares. </p>
+                        <h5 class="card-title">PEPE</h5>
+                        <p class="card-text">La mascota del lusitano tiene dos años con él y se llama Pepe. Es un gato de raza sphynx, cuya principal característica es que no tienen pelo y se rumora que pagaron por él algo más de 4 mil dólares. </p>
                       <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                     </div>
-                  </div>
+                </div>
+            </div>
+        </div> <!-- fin de row-->
+            
+
+
+    </div>
+            
+     <!-- FOOTER -->
+     <footer class="footer">
+        <div class="footer__contain">
+            <div class="footer__col">
+                <h4 class="footer__title">Locación</h4>
+                <p class="footer__paragraph">Perú</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">Correo</h4>
+                <p class="footer__paragraph">teambicho_05@gmail.com</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">Teléfono</h4>
+                <p class="footer__paragraph">+51 987654321</p>
             </div>
         </div>
-            
-              
-              
-              
-              
-    </div>
-    <br/>
-        <footer>
-            <div class="contenedor-footer">
-                <div class="content-foo">
-                    <h4>Locación</h4>
-                    <p>Perú</p>
-                </div>
-                <div class="content-foo">
-                    <h4>Correo</h4>
-                    <p>teambicho_05@gmail.com</p>
-                </div>
-                <div class="content-foo">
-                    <h4>Teléfono</h4>
-                    <p>+51 987654321</p>
-                </div>
-            </div>
-            <h2 class="titulo-final">&copy;Biografía de Cristiano Ronaldo. Todo los derechos reservados | Diseñado por el Grupo 2 "Team Bicho"</h2>
-        </footer>
+        <p class="footer__final">&copy;Biografía de Cristiano Ronaldo. Todo los derechos reservados | Diseñado por el Grupo 2 "Team Bicho"</p>
+    </footer>
 
 
+ 
     <!-- JavaScript de Boostrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-    <script src="FAMILIAscrip.js"></script>
+        
+    <!-- Javascript personalizado -->
+    <script src="js/app.js"></script>
 </body>
 </html>
