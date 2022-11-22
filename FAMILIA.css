@@ -52,23 +52,23 @@
 /* final parte 1 */
 
 /* PARTE 2 historia */
-.historia{
+.historiaa{
     background-color: #fffeff;
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 2em;
     margin-top: 2em;
 }
-.image-historia{
+.image-historiaa{
   width: 100%;
   display: block;
 }
-.reseña-historia{
+.reseña-historiaa{
     text-align: center;
 }
 
 
-.text-family{
+.text-familya{
 
     display: flex;
     flex-direction: row;
