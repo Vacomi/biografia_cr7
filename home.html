@@ -7,7 +7,7 @@
     <title>Cristiano Ronaldo</title>
 
     <!-- LINK DEL FAVICON -->
-    <link rel="shortcut icon" href="favicon_cr7.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon_cr7.png" type="image/x-icon">
 
     <!-- LINK DE LA FUENTE DE LETRA -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
     <!-- LINK DEL CSS -->
-    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -35,7 +35,7 @@
         <nav class="navbar navbar-expand-lg bg-dangerr">
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="home.html"><img src="logo_cr7.png" alt="Logotipo CR7" class="logo"></a>
+                <a class="navbar-brand" href="home.html"><img src="img/logo_cr7.png" alt="Logotipo CR7" class="logo"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -57,7 +57,7 @@
 
     <!-- AQUI VA TU SECCION -->
     <div>
-      <h1 class="titulocris">Cristiano Ronaldo</h1>
+      <h1 class="text-center mt-3 fw-bold">Cristiano Ronaldo</h1>
     </div>
 
     <div class="container">
@@ -73,36 +73,36 @@
               <div class="carousel-item active">
                 <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt3473f4f50796ffac/60df0841118f582e1263c9fb/296c421c11b4f562666c3d6bc52c2295f04af083.jpg" class="d-block w-100" alt="">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 class="titulo">Portugal</h5>
-                  <p class="descripcion">Campeón de la Eurocopa 2016, al ganarle por 1 a 0 a la selección de Francia, con gol de Éder a los 109'.</p>
+                  <h5 class="slider__title">Portugal</h5>
+                  <p class="slider__descripcion">Campeón de la Eurocopa 2016, al ganarle por 1 a 0 a la selección de Francia, con gol de Éder a los 109'.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt1f24345f45cd891e/60de820276a3de39ad1fd2a3/545096b6d2984a0b71dab3779f5dba395ad159a8.jpg" class="d-block w-100" alt="">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 class="titulo">Sporting de Lisboa</h5>
-                  <p class="descripcion">Cristiano Ronaldo, la mayor perla que jamás vio nacer la abundante cantera del Sporting de Portugal.</p>
+                  <h5 class="slider__title">Sporting de Lisboa</h5>
+                  <p class="slider__descripcion">Cristiano Ronaldo, la mayor perla que jamás vio nacer la abundante cantera del Sporting de Portugal.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/27080841/Cristiano-Ronaldo-Champions-League.jpg" class="d-block w-100" alt="">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 class="titulo">Real Madrid</h5>
-                  <p class="descripcion">Quinta Champions League conquistada por Cristiano Ronaldo, y última en su etapa con el club galáctico.</p>
+                  <h5 class="slider__title">Real Madrid</h5>
+                  <p class="slider__descripcion">Quinta Champions League conquistada por Cristiano Ronaldo, y última en su etapa con el club galáctico.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="https://pbs.twimg.com/media/ECRYOhoX4AAuR1_.jpg:large" class="d-block w-100" alt="">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 class="titulo">Juventus</h5>
-                  <p class="descripcion">Primer Scudetto logrado en su paso por Italia, y despedida del entrenador Massimiliano Alegri.</p>
+                  <h5 class="slider__title">Juventus</h5>
+                  <p class="slider__descripcion">Primer Scudetto logrado en su paso por Italia, y despedida del entrenador Massimiliano Alegri.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="https://assets.manutd.com/AssetPicker/images/0/0/15/169/1026386/GettyImages_13396588991631371036044_large.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 class="titulo">Manchester United</h5>
-                  <p class="descripcion">Club en el cuál conquisto sus primeros trofeos a nivel de clubes.<br>Y actualmente se encuentra jugando para ellos. </p>
+                  <h5 class="slider__title">Manchester United</h5>
+                  <p class="slider__descripcion">Club en el cuál conquisto sus primeros trofeos a nivel de clubes.<br>Y actualmente se encuentra jugando para ellos. </p>
                 </div>
               </div>
             </div>
@@ -114,13 +114,17 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>
-          <div class="marquee-gif">
-            <marquee>
+          </div> <!-- fin de carousel-->
+
+          <!-- Marque -->
+          <div class="mt-3">
+            <marquee class="fw-bold fst-italic">
               "Respeto las preferencias de todos, pero no veo a nadie mejor que yo" <img src="./cris.gif" width="150" height="100" alt="">
             </marquee>
           </div>
-          <table class="table table-dark">
+
+
+          <table class="table table-dark text-center">
             <thead>
               <tr>
                 <th scope="col">#</th>
@@ -175,34 +179,42 @@
               </tr>
             </tbody>
           </table>
-          <div class="hazaña">
-            <p class="text-family">El día 09/10/22 cuando el Manchester United se enfrento al Everton, Cristiano Ronaldo anotó y llegó a los 700 goles anotados a nivel de clubes, ubicandolo en lo más alto de este lindo deporte que es el fútbol. Realmente una hazaña sorprendente.
-            </p>
-            <div>
-                <img class="explendor" src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2022/10/10/000904258W.jpg" width="400" height="400" alt="">
-                <p class="explendor-text">
-                Cristiano Ronaldo en su máximo explendor, en cuánto a nivel de clubes.
-                </p>
+
+
+
+          <div class="row bg-dark mb-3 mx-0">
+            <div class="col-12 col-md-7 d-flex align-items-center">
+              <p class="text-white fs-5 px-3 pt-3">"El día 09/10/22 cuando el Manchester United se enfrento al Everton, Cristiano Ronaldo anotó y llegó a los 700 goles anotados a nivel de clubes, ubicandolo en lo más alto de este lindo deporte que es el fútbol. Realmente una hazaña sorprendente."
+              </p>
             </div>
+            <div class="col-12 col-md-5 bg-successs relativo pt-3">
+              <img class="poster__img" src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2022/10/10/000904258W.jpg" width="400" height="400" alt="">
+              <p class="poster__texto bg-dark">
+                Cristiano Ronaldo en su máximo explendor, en cuánto a nivel de clubes.
+              </p>
+            </div>
+          
           </div>
+
     </div>
 
-    <footer>
-      <div class="contenedor-footer">
-          <div class="content-foo">
-              <h4>Locación</h4>
-              <p>Perú</p>
+     <!-- FOOTER -->
+     <footer class="footer">
+      <div class="footer__contain">
+          <div class="footer__col">
+              <h4 class="footer__title">Locación</h4>
+              <p class="footer__paragraph">Perú</p>
           </div>
-          <div class="content-foo">
-              <h4>Correo</h4>
-              <p>teambicho_05@gmail.com</p>
+          <div class="footer__col">
+              <h4 class="footer__title">Correo</h4>
+              <p class="footer__paragraph">teambicho_05@gmail.com</p>
           </div>
-          <div class="content-foo">
-              <h4>Teléfono</h4>
-              <p>+51 987654321</p>
+          <div class="footer__col">
+              <h4 class="footer__title">Teléfono</h4>
+              <p class="footer__paragraph">+51 987654321</p>
           </div>
       </div>
-      <h2 class="titulo-final">&copy;Biografía de Cristiano Ronaldo. Todo los derechos reservados | Diseñado por el Grupo 2 "Team Bicho"</h2>
+      <p class="footer__final">&copy;Biografía de Cristiano Ronaldo. Todo los derechos reservados | Diseñado por el Grupo 2 "Team Bicho"</p>
   </footer>
 
     <!-- JavaScript de Boostrap -->
